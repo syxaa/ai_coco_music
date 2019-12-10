@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/annotation/Column.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/annotation/Table.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/dao/BaseDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/dao/UserDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/entity/BaseEntity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/entity/User.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/filter/LoginFilter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/page/Operator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/page/Page.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/page/SearchProperty.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/LoginServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/SonglikeServlet2.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/util/CpachaUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/util/DbUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/util/StringUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/404.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/500.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/META-INF/MANIFEST.MF" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/easyui" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/h-ui" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

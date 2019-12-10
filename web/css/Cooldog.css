@@ -1,0 +1,125 @@
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+    font-size: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.Cooldog_container {
+    width: 100%;
+    height: 220px;
+    margin: 10px auto 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.Cooldog_container .Cooldog_content {
+    position: absolute;
+    width: 600px;
+    height: 220px;
+    top: 0;
+    left: 50%;
+    margin-left: -300px;
+}
+
+.Cooldog_container .Cooldog_content li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600px;
+    height: 220px;
+    transition: all 0.3s ease;
+}
+
+.Cooldog_container .Cooldog_content li img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.Cooldog_container .buttons {
+    width: 270px;
+    height: 5px;
+    line-height: 5px;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    margin-left: -135px;
+    z-index: 80;
+}
+
+.Cooldog_container .buttons a {
+    float: left;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.Cooldog_container .buttons a.color {
+    background-color: red;
+}
+
+.Cooldog_container .buttons a:last-child {
+    margin-right: 0;
+}
+
+.p1 {
+    transform: translate3d(-807px, 0, 0) scale(0.81);
+    opacity: 0;
+    z-index: 1;
+}
+
+.p2 {
+    transform: translate3d(-555px, 0, 0) scale(0.81);
+    transform-origin: 0 50%;
+    opacity: 0;
+    z-index: 2;
+}
+
+.p3 {
+    transform: translate3d(-355px, 0, 0) scale(0.81);
+    transform-origin: 0 50%;
+    opacity: 0.8;
+    z-index: 3;
+}
+
+.p4 {
+    transform: translate3d(0px, 0, 0) scale(1);
+    opacity: 1;
+    z-index: 4;
+}
+
+.p5 {
+    transform: translate3d(462px, 0, 0) scale(0.81);
+    transform-origin: 0 50%;
+    opacity: 0.8;
+    z-index: 3;
+}
+
+.p6 {
+    transform: translate3d(667px, 0, 0) scale(0.81);
+    transform-origin: 0 50%;
+    opacity: 0;
+    z-index: 2;
+}
+
+.p7 {
+    transform: translate3d(867px, 0, 0) scale(0.81);
+    transform-origin: 0 50%;
+    opacity: 0;
+    z-index: 1;
+}
+
+
+
+
+

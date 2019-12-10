@@ -1,0 +1,468 @@
+@media screen and (max-width: 600px){
+    section{
+        padding: 10px 10px 0 10px;
+    }
+    body{
+        -webkit-font-smoothing: antialiased; /*chrome、safari*/
+        -moz-osx-font-smoothing: grayscale;/*firefox*/
+    }
+    ::-webkit-scrollbar {
+        width: 3px;
+        background-color: #fff;
+    }
+    ::-webkit-scrollbar-thumb{
+        width: 3px;
+        background-color: rgba(0, 0, 0, .2);
+        border-radius: 10px;
+    }
+
+    /*歌单，专辑响应式*/
+    .author-cd .top>div{
+        margin-top: 10px;
+        height: 102px;
+    }
+    .author-cd .top>div img{
+        width: 100px;
+        height: 100px;
+    }
+    .author-cd .top>div p:nth-child(2){
+        font-size: 1.1rem;
+        right: 0;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+    }
+    .author-cd .top>div p:nth-child(2),.author-cd .top>div p:nth-child(3),.author-cd .top>div p:nth-child(4){
+        left: 110px;
+    }
+    .author-cd .top>div p:nth-child(3){
+        top: 25px;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+    }
+    .author-cd .top>div p:nth-child(4){
+        top: 45px;
+    }
+    .author-cd .bottom{
+        top: 140px;
+    }
+    .author-cd .bottom>ul li span:nth-child(2){
+        font-size: 0.9rem;
+        max-width: 160px;
+        overflow: hidden;
+        right: 35%;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+    }
+    .author-cd .bottom>ul li span:nth-child(3){
+        left: 66%;
+        right: 0;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+    }
+    .author-cd .bottom>ul li span:nth-child(4){
+        display: none;
+    }
+
+
+
+    /*歌词弹窗响应式*/
+    .music-pop .lyr .left{
+        float: left;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 290px;
+    }
+    .music-pop .lyr>.left>.needle{
+        width: 80px;
+        top: -18px;
+        margin-left: -40px;
+        transform-origin: 18px 18px;
+    }
+    .music-pop .lyr>.left>.disc-o{
+        width: 220px;
+        top: 50px;
+        margin-left: -110px;
+    }
+    .music-pop .lyr>.left>.disc{
+        width: 150px;
+        height: 150px;
+        top: 88px;
+        margin-left: -75px;
+    }
+    .music-pop .lyr>.left>p{
+        display: none;
+    }
+
+    .music-pop .lyr>.right{
+        width: 100%;
+        top: 290px;
+        bottom: 0;
+    }
+    .music-pop .lyr>.right>p{
+        margin-top: 0;
+        height: 45px;
+    }
+    .music-pop .lyr>.right>p span{
+        width: 100%;
+        text-align: center;
+    }
+    .music-pop .lyr>.right>p>span:nth-child(1){
+        font-size: 1.2rem;
+    }
+    .music-pop .lyr>.right>p>span:nth-child(3){
+        display: none;
+    }
+    .music-pop .lyr>.right>.Lyrics{
+        top: 60px;
+        position: absolute;
+        bottom: 20px;
+        font-size: 0.9rem;
+    }
+    .music-pop .lyr>.right>.Lyrics li{
+        text-align: center;
+    }
+
+    /*左侧导航响应式*/
+    .nav .nav-icon{
+        width: 50px;
+    }
+    .nav-icon li span,.nav-icon .local,.login>span:nth-child(1) span{
+        display: none;
+    }
+    .nav-icon li:nth-child(6){
+        visibility:visible;
+    }
+    section{
+        margin-left: 51px;
+    }
+
+    /*发现音乐*/
+    .find .main .recommend .recommend-song>div{
+        width: 50%;
+    }
+    .find .main .recommend .recommend-song>div img{
+        height: 20vh;
+    }
+    .find .main .recommend .recommend-mv>div{
+        width: 100%;
+    }
+    .find .main .recommend .ranking>div{
+        width: 32%;
+    }
+
+    /*发现页面下的歌手页面*/
+    .find .find-author .authors div{
+        width: 50%;
+    }
+    .find .find-author .authors div img{
+        height: 20vh;
+    }
+    .find .find-author .classify p{
+        line-height: 25px;
+    }
+
+
+
+    /*歌手页面响应*/
+    .search-author .top>div{
+        height: 102px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .search-author .top>div img{
+        width: 100px;
+        height: 100px;
+    }
+    .search-author .top>div span:nth-child(2){
+        top: 0;
+        left: 120px;
+    }
+    .search-author .top>div span:nth-child(3){
+        top: 25px;
+        left: 120px;
+    }
+    .search-author .top>div span:nth-child(4){
+        top: 45px;
+        left: 120px;
+    }
+    .search-author .top>div span:nth-child(5){
+        top: 60px;
+        left: 120px;
+    }
+    .search-author .top>div span:nth-child(6){
+        top: 75px;
+        left: 120px;
+    }
+    .search-author .main{
+        top: 180px;
+    }
+    .search-author .authorHost>ul li span:nth-child(1){
+        left: 3%;
+    }
+    .search-author .authorHost>ul li span:nth-child(2){
+        right: 35%;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+    }
+    .search-author .authorHost>ul li span:nth-child(3){
+        left: 66%;
+        right: 0;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+    }
+    .search-author .authorHost>ul li span:nth-child(4){
+        display: none;
+    }
+    .search-author .authorCd>div, .search-author .authorMv>div{
+        width: 50%;
+    }
+
+
+    /*搜索页*/
+    .search .input input{
+        width: 85%;
+    }
+    .search .input span{
+        width: 15%;
+    }
+    .search .main .left span{
+        margin-top: 10px;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+    }
+    .search .main .right ul li{
+        height: 30px;
+        line-height: 30px;
+    }
+    .search .main .left span{
+        padding: 3px 5px 3px 5px;
+    }
+    .search .searchBody .song li span:nth-child(1){
+        left: 3%;
+        right: 45%;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+    }
+    .search .searchBody .song li span:nth-child(2){
+        left: 60%;
+        right: 0;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+    }
+    .search .searchBody .song li span:nth-child(3){
+        display: none;
+    }
+    .search .searchBody .cd li span:nth-child(2){
+        right: 36%;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+    }
+    .search .searchBody .cd li span:nth-child(3){
+        left: 65%;
+        right: 0;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+    }
+    .search .searchBody .mv>div{
+        width: 50%;
+    }
+    .search .searchBody .mv>div img{
+        height: 10vh;
+    }
+
+
+    /*排行榜*/
+    .second .content .globalDivs>div{
+        width: 50%;
+    }
+
+    /*歌曲推荐*/
+    .recommend-songs .coffee{
+        height: 150px;
+    }
+    .recommend-songs .coffee div{
+        width: 80px;
+        height: 80px;
+        font-size: 55px;
+    }
+    .recommend-songs .coffee span:nth-child(2){
+        font-size: 1.2rem;
+        top: 35px;
+        left: 100px;
+    }
+    .recommend-songs .coffee span:nth-child(3){
+        font-size: 0.9rem;
+        top: 65px;
+        left: 100px;
+    }
+    .recommend-songs ul{
+        top: 160px;
+        margin-top: 10px;
+    }
+    .recommend-songs ul li span:nth-child(1){
+        left: 3%;
+    }
+    .recommend-songs ul li span:nth-child(2){
+        right: 36%;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+    }
+    .recommend-songs ul li span:nth-child(3){
+        left: 65%;
+        right: 0;
+    }
+    .recommend-songs ul li span:nth-child(4){
+        display: none;
+    }
+
+
+    /*播放控件*/
+    .play-icon{
+        margin: 0;
+        width: 130px;
+    }
+    .progress{
+        display: none;
+    }
+    .sound{
+        margin-left: 0;
+        right: 0;
+        left: 190px;
+    }
+    .play-icon span{
+        margin: 15px 5px;
+    }
+    .sound>span{
+        width: 30%;
+    }
+    .sound>span:nth-child(3){
+        display: none;
+    }
+
+
+    /*歌曲列表*/
+    .list-pop{
+        width: 100%;
+    }
+    .list-pop .title>span:nth-child(2){
+        position: absolute;
+        right: 60px;
+        margin-left: 0;
+    }
+    .list-pop .title>span:nth-child(3){
+        position: absolute;
+        right: 20px;
+    }
+    .list-pop .list li span{
+        position: absolute;
+    }
+    .list-pop .list li span:nth-child(1){
+        left: 0;
+        right: 32%;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+    }
+    .list-pop .list li span:nth-child(2){
+        left: 70%;
+        right: 0;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+    }
+
+
+
+    /*登录框*/
+    .login-pop{
+        width: 90%;
+        left: 5%;
+        margin-left: 0;
+    }
+    .login-pop .user-img{
+        width: 80%;
+        left: 10%;
+    }
+    .login-pop>button{
+        width: 80%;
+        left: 10%;
+    }
+    .login-pop .close{
+        top: 15px;
+        right: 15px;
+    }
+    .login-pop>.fill>div{
+        width: 80%;
+        left: 10%;
+    }
+
+    /*轮播图*/
+    .Cooldog_container,.Cooldog_container .Cooldog_content li,.Cooldog_container .Cooldog_content{
+        width: 100%;
+        height: 160px;
+    }
+    .Cooldog_container .Cooldog_content{
+        left: 0;
+        margin-left: 0;
+    }
+    .Cooldog_container .buttons{
+        width: 200px;
+        margin-left: -100px;
+    }
+    .Cooldog_container .buttons a{
+        width: 20px;
+    }
+
+
+    /*加载中*/
+    .loading{
+        left: 51px;
+    }
+    .ajaxload{
+        left: 51px;
+    }
+
+
+    /*mv排行榜*/
+    .mv-second .paihangbang>div,.mv-second .news>div{
+        height: 70px;
+    }
+    .mv-second .paihangbang>div>span,.mv-second .news>div>span{
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        margin-top:-10px;
+        font-size: 14px;
+    }
+    .mv-second .paihangbang>div img,.mv-second .news>div img{
+        width: 120px;
+        height: 68px;
+        left:25px;
+    }
+    .mv-second .text{
+        left: 155px;
+    }
+    .mv-second .text>span:nth-child(1){
+        font-size: 15px;
+        top: 0;
+    }
+    .mv-second .text>span:nth-child(2){
+        top: 20px;
+    }
+    .mv-second .text>span:nth-child(3){
+        top:35px
+    }
+}
+

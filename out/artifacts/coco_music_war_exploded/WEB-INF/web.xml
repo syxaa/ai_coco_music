@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <display-name>coco_music_Web</display-name>
+    <!-- 项目启动后的主页 -->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    <!-- 错误页面定义 -->
+    <error-page>
+        <error-code>404</error-code>
+        <location>/404.jsp</location>
+    </error-page>
+    <error-page>
+        <error-code>500</error-code>
+        <location>/500.jsp</location>
+    </error-page>
+
+    <!-- 过滤器配置 -->
+<!--    <filter>-->
+<!--        <description>登录状态检测过滤器</description>-->
+<!--        <filter-name>LoginFilter</filter-name>-->
+<!--        <filter-class>filter.LoginFilter</filter-class>-->
+<!--    </filter>-->
+<!--    <filter-mapping>-->
+<!--        <filter-name>LoginFilter</filter-name>-->
+<!--        <url-pattern>/SystemServlet</url-pattern>-->
+<!--        <url-pattern>/UserServlet</url-pattern>-->
+<!--        <url-pattern>/BookCategoryServlet</url-pattern>-->
+<!--        <url-pattern>/BookServlet</url-pattern>-->
+<!--        <url-pattern>/BorrowServlet</url-pattern>-->
+<!--        <url-pattern>/BorrowStatsServlet</url-pattern>-->
+<!--        <url-pattern>/UserInfoServlet</url-pattern>-->
+<!--    </filter-mapping>-->
+
+    <!-- servlet定义，对应于servlet类 -->
+
+    <servlet>
+        <description>登录注册控制类</description>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description>歌单歌曲控制类</description>
+        <servlet-name>ListsongServelet</servlet-name>
+        <servlet-class>servlet.ListsongServelet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListsongServelet</servlet-name>
+        <url-pattern>/ListsongServelet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description>Mv推荐控制类</description>
+        <servlet-name>MvServelet</servlet-name>
+        <servlet-class>servlet.MvServelet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MvServelet</servlet-name>
+        <url-pattern>/MvServelet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description>Mv查询控制类</description>
+        <servlet-name>MvlistServelet</servlet-name>
+        <servlet-class>servlet.MvlistServelet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MvlistServelet</servlet-name>
+        <url-pattern>/MvlistServelet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description>歌单控制类</description>
+        <servlet-name>SonglistServelet</servlet-name>
+        <servlet-class>servlet.SonglistServelet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SonglistServelet</servlet-name>
+        <url-pattern>/SonglistServelet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description>推荐歌曲控制类</description>
+        <servlet-name>RecommendServelet</servlet-name>
+        <servlet-class>servlet.RecommendServelet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RecommendServelet</servlet-name>
+        <url-pattern>/RecommendServelet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description>我的喜欢控制类</description>
+        <servlet-name>SonglikeServelet</servlet-name>
+        <servlet-class>servlet.SonglikeServelet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SonglikeServelet</servlet-name>
+        <url-pattern>/SonglikeServelet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DatabaseAccess</servlet-name>
+        <servlet-class>test.DatabaseAccess</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DatabaseAccess</servlet-name>
+        <url-pattern>/TomcatTest/DatabaseAccess</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Refresh</servlet-name>
+        <servlet-class>test.Refresh</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Refresh</servlet-name>
+        <url-pattern>/TomcatTest/Refresh</url-pattern>
+    </servlet-mapping>
+</web-app>

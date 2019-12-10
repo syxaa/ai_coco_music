@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="coco_music:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="00a0448e-dab4-4db5-a769-e2adfc3e728c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/dao/MvNewlistDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/MvRanklistDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Mvnewlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Mvranklist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/zucc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/WEB-INF/classes/servlet/MvlistServelet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/WEB-INF/classes/servlet/MvlistServelet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/WEB-INF/classes/servlet/SonglikeServelet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/WEB-INF/classes/servlet/SonglikeServelet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/css/other.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/css/other.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/js/Cooldog.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/js/Cooldog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/js/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/js/function.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coco_music/servlet/MvlistServelet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coco_music/servlet/MvlistServelet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coco_music/servlet/SonglikeServelet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coco_music/servlet/SonglikeServelet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/MvlistServelet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/MvlistServelet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/SonglikeServelet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/SonglikeServelet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/other.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/other.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/Cooldog.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/Cooldog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/function.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/main.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UCdM12Gfj2AttPnfKt9LP4Y5tf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="coco_music" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/images" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\孙宇轩\平时\作业\大三上\软件工程\coco_github\coco_music\coco_music\web\images" />
+      <recent name="D:\孙宇轩\平时\作业\大三上\软件工程\coco_github\coco_music\coco_music\web" />
+      <recent name="D:\孙宇轩\平时\作业\大三上\软件工程\新建文件夹 (2)\coco_music" />
+      <recent name="D:\孙宇轩\平时\作业\大三上\软件工程\新建文件夹 (2)\coco_music\web" />
+      <recent name="D:\孙宇轩\平时\作业\大三上\软件工程\新建文件夹 (2)\coco_music\web\js" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dao" />
+      <recent name="servlet" />
+      <recent name="entity" />
+      <recent name="test" />
+      <recent name="filter" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\孙宇轩\平时\作业\大三上\软件工程\新建文件夹 (2)\coco_music\web\js" />
+      <recent name="F:\IDEA_ku\coco_music\web" />
+      <recent name="F:\IDEA_ku\coco_music\web\WEB-INF" />
+      <recent name="F:\IDEA_ku\coco_music\web\WEB-INF\views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.45">
+    <configuration name="function.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="function.js" working-dir="$PROJECT_DIR$/web/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 8.5.45" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.94" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="coco_music:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/coco_music_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_45_coco_music" />
+        <option name="HTTP_PORT" value="8081" />
+        <option name="JNDI_PORT" value="1002" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50057" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="coco_music:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.function.js" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.45" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.function.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00a0448e-dab4-4db5-a769-e2adfc3e728c" name="Default Changelist" comment="" />
+      <created>1574864459736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574864459736</updated>
+      <workItem from="1574864463814" duration="3787000" />
+      <workItem from="1574919731805" duration="5911000" />
+      <workItem from="1574926650012" duration="2552000" />
+      <workItem from="1574944335610" duration="1890000" />
+      <workItem from="1574951912828" duration="2191000" />
+      <workItem from="1574954156012" duration="2367000" />
+      <workItem from="1575014073966" duration="9109000" />
+      <workItem from="1575033659405" duration="1804000" />
+      <workItem from="1575035601241" duration="4019000" />
+      <workItem from="1575111169896" duration="313000" />
+      <workItem from="1575111669993" duration="103000" />
+      <workItem from="1575112057172" duration="316000" />
+      <workItem from="1575112426305" duration="2467000" />
+      <workItem from="1575121656501" duration="774000" />
+      <workItem from="1575122543833" duration="252000" />
+      <workItem from="1575122919768" duration="1645000" />
+      <workItem from="1575167379772" duration="9105000" />
+      <workItem from="1575206625611" duration="12412000" />
+      <workItem from="1575269667298" duration="3169000" />
+      <workItem from="1575274177802" duration="33465000" />
+      <workItem from="1575429371014" duration="658000" />
+      <workItem from="1575534816877" duration="900000" />
+      <workItem from="1575545544478" duration="726000" />
+      <workItem from="1575586835019" duration="1802000" />
+      <workItem from="1575615910545" duration="435000" />
+      <workItem from="1575731064645" duration="18749000" />
+      <workItem from="1575808095282" duration="113000" />
+      <workItem from="1575818411575" duration="2903000" />
+      <workItem from="1575867825747" duration="11018000" />
+      <workItem from="1575899750180" duration="8863000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/web/js/main.js</url>
+          <line>151</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/web/js/main.js</url>
+          <line>97</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/web/js/main.js</url>
+          <line>207</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/web/js/main.js</url>
+          <line>775</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/servlet/SonglikeServelet.java</url>
+          <line>266</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/servlet/SonglikeServelet.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="page.getContent().get(0)" language="JAVA" />
+        <watch expression="page1" language="JAVA" />
+        <watch expression="page" language="JAVA" />
+        <watch expression="page1" language="JAVA" />
+        <watch expression="result" language="JAVA" />
+        <watch expression="ret" language="JAVA" />
+        <watch expression="id" language="JAVA" />
+        <watch expression="page1.getContent().get(0)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/coco_music$Tomcat_8_5_45.ic" NAME="Tomcat 8.5.45 Coverage Results" MODIFIED="1575122643277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
