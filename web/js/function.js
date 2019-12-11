@@ -30,102 +30,6 @@ function browserRedirect() {
     }
 }
 
-// 初始化歌曲信息函数(原生）
-// function musicInit(){
-//     if(!lists[0].al){
-//         $('.progress .musicName').text(lists[musicIndex].name);
-//         $('.progress .author').text(' - '+lists[musicIndex].artists[0].name);
-//         $('.music-pop .lyr .right>p>span:eq(0)').text(lists[musicIndex].name);
-//         $('.music-pop .lyr .right>p>span:eq(1)>span:eq(1)').text(lists[musicIndex].artists[0].name);
-//         $('.music-pop .lyr .right>p>span:eq(1)>span:eq(1)').attr('data-id',lists[musicIndex].artists[0].id);
-//         $('.music-pop .lyr .right>p>span:eq(1)>span:eq(0)').text(lists[musicIndex].album.name);
-//         $('.music-pop .lyr .right>p>span:eq(1)>span:eq(0)').attr('data-id',lists[musicIndex].album.id);
-//         $('.search .searchBody .song li span').css('color','');
-//         $('.search .searchBody .song li:eq('+musicIndex+') span').css('color','#C62E2E');
-//         $('.list-pop .list li span').css('color','');
-//         $('.list-pop .list li:eq('+musicIndex+') span').css('color','#C62E2E');
-//         $(audio).attr('src','http://music.163.com/song/media/outer/url?id='+lists[musicIndex].id+'.mp3');
-//         // audio.play();
-//         $.ajax({
-//             url:'/lyric?id='+lists[musicIndex].id,
-//             type:'get',
-//             success:function (res) {
-//                 if (res.nolyric){
-//                     lyr='';
-//                     $('.Lyrics ul').css('top','200px');
-//                     $('.Lyrics ul').html('<li>暂无歌词，请欣赏</li>');
-//                 }else {
-//                     lyr=parseLyric(res.lrc.lyric);
-//                     getlyr();
-//                 }
-//
-//             }
-//         });
-//         $.ajax({
-//             url: '/album?id='+lists[musicIndex].album.id,
-//             type:'get',
-//             success:function (res) {
-//                 $('.headimg img').attr('src',res.album.blurPicUrl);
-//                 $('.music-pop .bg').css({'background':'url('+res.album.blurPicUrl+') center no-repeat','background-size':'cover'});
-//                 $('.music-pop .lyr>.left>.disc').attr('src',res.album.blurPicUrl);
-//             }
-//         });
-//         if (likesMusicId.indexOf(lists[musicIndex].id)!=-1){
-//             $('.sound span:nth-child(1)').attr('class','like');
-//             $('.sound span:nth-child(1) i').attr('class','iconfont icon-like');
-//         }else {
-//             $('.sound span:nth-child(1)').removeAttr('class');
-//             $('.sound span:nth-child(1) i').attr('class','iconfont icon-heart2');
-//         }
-//     }else {
-//         $('.progress .musicName').text(lists[musicIndex].name);
-//         $('.progress .author').text(' - '+lists[musicIndex].ar[0].name);
-//         $('.music-pop .lyr .right>p>span:eq(0)').text(lists[musicIndex].name);
-//         $('.music-pop .lyr .right>p>span:eq(1)>span:eq(1)').attr('data-id',lists[musicIndex].ar[0].id);
-//         $('.music-pop .lyr .right>p>span:eq(1)>span:eq(0)').attr('data-id',lists[musicIndex].al.id);
-//         $('.music-pop .lyr .right>p>span:eq(1)>span:eq(1)').text(lists[musicIndex].ar[0].name);
-//         $('.music-pop .lyr .right>p>span:eq(1)>span:eq(0)').text(lists[musicIndex].al.name);
-//         $('.list-pop .list li span').css('color','');
-//         $('.list-pop .list li:eq('+musicIndex+') span').css('color','#C62E2E');
-//         $('.search-author .authorHost>ul li span').css('color','');
-//         $('.search-author .authorHost>ul li:eq('+musicIndex+') span').css('color','#C62E2E');
-//         $('.author-cd .bottom>ul li span').css('color','');
-//         $('.author-cd .bottom>ul li:eq('+musicIndex+') span').css('color','#C62E2E');
-//         $(audio).attr('src','http://music.163.com/song/media/outer/url?id='+lists[musicIndex].id+'.mp3');
-//
-//         // audio.play();
-//         $.ajax({
-//             url:'/lyric?id='+lists[musicIndex].id,
-//             type:'get',
-//             success:function (res) {
-//                 if (res.nolyric){
-//                     lyr='';
-//                     $('.Lyrics ul').css('top','200px');
-//                     $('.Lyrics ul').html('<li>暂无歌词，请欣赏</li>');
-//                 }else {
-//                     lyr=parseLyric(res.lrc.lyric);
-//                     getlyr();
-//                 }
-//             }
-//         });
-//         $.ajax({
-//             url: '/album?id='+lists[musicIndex].al.id,
-//             type:'get',
-//             success:function (res) {
-//                 $('.headimg img').attr('src',res.album.blurPicUrl);
-//                 $('.music-pop .bg').css({'background':'url('+res.album.blurPicUrl+') center no-repeat','background-size':'cover'});
-//                 $('.music-pop .lyr>.left>.disc').attr('src',res.album.blurPicUrl);
-//             }
-//         });
-//         if (likesMusicId.indexOf(lists[musicIndex].id)!=-1){
-//             $('.sound span:nth-child(1)').attr('class','like');
-//             $('.sound span:nth-child(1) i').attr('class','iconfont icon-like');
-//         }else {
-//             $('.sound span:nth-child(1)').removeAttr('class');
-//             $('.sound span:nth-child(1) i').attr('class','iconfont icon-heart2');
-//         }
-//     }
-// }
 //syx
 function musicInit(){
     if(!lists.values[musicIndex].album_name){
@@ -237,42 +141,7 @@ function musicInit(){
     }
 }
 //
-// //syx
-// function musicInit(){
-//     $('.list-pop .list li span').css('color','');
-//     $('.list-pop .list li:eq('+musicIndex+') span').css('color','#C62E2E');
-//     $('.search-author .authorHost>ul li span').css('color','');
-//     $('.search-author .authorHost>ul li:eq('+musicIndex+') span').css('color','#C62E2E');
-//     $('.author-cd .bottom>ul li span').css('color','');
-//     $('.author-cd .bottom>ul li:eq('+musicIndex+') span').css('color','#C62E2E');
-//
-//     $(audio).attr('src','http://music.163.com/song/media/outer/url?id='+lists.values[musicIndex].song_id+'.mp3');
-//         audio.play();
-//             $.ajax({
-//             url:'http://localhost:3000/lyric?id='+lists.values[musicIndex].song_id,
-//             type:'get',
-//             success:function (res) {
-//                 if (res.nolyric){
-//                     lyr='';
-//                     $('.Lyrics ul').css('top','200px');
-//                     $('.Lyrics ul').html('<li>暂无歌词，请欣赏</li>');
-//                 }else {
-//                     lyr=parseLyric(res.lrc.lyric);
-//                     getlyr();
-//                 }
-//             }
-//         });
-//     $.ajax({
-//             url: 'http://localhost:3000/album?id='+'3070416',
-//             type:'get',
-//             success:function (res) {
-//                 $('.headimg img').attr('src',res.album.blurPicUrl);
-//                 $('.music-pop .bg').css({'background':'url('+res.album.blurPicUrl+') center no-repeat','background-size':'cover'});
-//                 $('.music-pop .lyr>.left>.disc').attr('src',res.album.blurPicUrl);
-//             }
-//         });
-//
-// }
+
 
 //歌词格式化函数
 function parseLyric(text) {
@@ -735,26 +604,7 @@ function getCd(val) {
         }
     });
 }
-//原生
-// function getMv(val) {
-//     $('.ajaxload').show();
-//     $.ajax({
-//         url:'http://localhost:3000/search?keywords='+val+'&type=1004',
-//         type:'get',
-//         success:function (res) {
-//             var str='';
-//             for (let i=0;i<res.result.mvs.length;i++){
-//                 str+='<div data-id='+res.result.mvs[i].id+'>' +
-//                         '<img src='+res.result.mvs[i].cover+'>' +
-//                         '<div>'+res.result.mvs[i].name+'</div>' +
-//                         '<div>'+res.result.mvs[i].artists[0].name+'</div>' +
-//                     '</div>';
-//             }
-//             $('.search .searchBody .mv').html(str);
-//             $('.ajaxload').fadeOut();
-//         }
-//     });
-// }
+
 //syx
 function getMv(val) {
     $('.ajaxload').show();
@@ -942,23 +792,7 @@ function getMvUrl(id) {
                     history.replaceState({text:$('section').html()}, '');
                 }
             });
-            // $.ajax({
-            //     url:'MvServelet?method=GetMvData',
-            //     type:'post',
-            //     dataType:'json',
-            //     data: {id: id},
-            //     success:function (data) {
-            //         console.log(data)
-            //         url=data.values[0].mv_url;
-            //         audio.pause();
-            //
-            //         $('video').attr('src',url);
-            //
-            //         $('.loading').fadeOut();
-            //         history.pushState({}, '', '?mvid='+id);
-            //         history.replaceState({text:$('section').html()}, '');
-            //     }
-            // });
+
         }
     })
 }
@@ -1004,77 +838,6 @@ function getCdDeta(id) {
         }
     });
 }
-// //获取专辑详情(syx)
-// function getCdDeta(id) {
-//     $('.loading').show();
-//     $.ajax({
-//         url:'cd.html',
-//         type:'get',
-//         success:function (html) {
-//             history.replaceState({text:$('section').html()}, '');
-//             $('section').html(html);
-//             $.ajax({
-//                 url:'SonglistServelet?method=GetSongListDatabyid',
-//                 type:'post',
-//                 data: {id: id},
-//                 success:function (res) {
-//                     haveLists=res.songs;
-//                     $('.author-cd .top>div img').attr('src',res.values[0].picurl);
-//                     $('.author-cd .top>div p:nth-child(2)').text(res.album.name);
-//                     $('.author-cd .top>div p:nth-child(3)').html('<span>歌手：'+res.album.artist.name+'</span><span>时间：'+fmtDate(res.album.publishTime)+'</span>');
-//                     if(res.album.description){
-//                         $('.author-cd .top>div p:nth-child(4)').text('介绍：'+res.album.description);
-//                     }else {
-//                         $('.author-cd .top>div p:nth-child(4)').text('介绍：暂无介绍');
-//                     }
-//                     $('.author-cd .bottom>p span').text(res.songs.length);
-//                     var str='';
-//                     for (let i=0;i<res.songs.length;i++){
-//                         str+='<li>' +
-//                             '<span>'+num(i+1)+'</span>' +
-//                             '<span>'+res.songs[i].name+'</span>' +
-//                             '<span>'+res.songs[i].ar[0].name+'</span>' +
-//                             '<span>热度：'+res.songs[i].pop+'</span>' +
-//                             '</li>'
-//                     }
-//                     $('.author-cd .bottom>ul').html(str);
-//                     $('.loading').fadeOut();
-//                     history.pushState({}, '', '?cdid='+id);
-//                     history.replaceState({text:$('section').html()}, '');
-//                 }
-//             });
-//             $.ajax({
-//                 url:'/album?id='+id,
-//                 type:'get',
-//                 success:function (res) {
-//                     haveLists=res.songs;
-//                     $('.author-cd .top>div img').attr('src',res.album.blurPicUrl);
-//                     $('.author-cd .top>div p:nth-child(2)').text(res.album.name);
-//                     $('.author-cd .top>div p:nth-child(3)').html('<span>歌手：'+res.album.artist.name+'</span><span>时间：'+fmtDate(res.album.publishTime)+'</span>');
-//                     if(res.album.description){
-//                         $('.author-cd .top>div p:nth-child(4)').text('介绍：'+res.album.description);
-//                     }else {
-//                         $('.author-cd .top>div p:nth-child(4)').text('介绍：暂无介绍');
-//                     }
-//                     $('.author-cd .bottom>p span').text(res.songs.length);
-//                     var str='';
-//                     for (let i=0;i<res.songs.length;i++){
-//                         str+='<li>' +
-//                             '<span>'+num(i+1)+'</span>' +
-//                             '<span>'+res.songs[i].name+'</span>' +
-//                             '<span>'+res.songs[i].ar[0].name+'</span>' +
-//                             '<span>热度：'+res.songs[i].pop+'</span>' +
-//                             '</li>'
-//                     }
-//                     $('.author-cd .bottom>ul').html(str);
-//                     $('.loading').fadeOut();
-//                     history.pushState({}, '', '?cdid='+id);
-//                     history.replaceState({text:$('section').html()}, '');
-//                 }
-//             });
-//         }
-//     });
-// }
 
 //获取banner
 function getBanner() {
@@ -1105,21 +868,7 @@ function getBanner() {
     }
     $('.Cooldog_content>ul').html(str);
     $('.loading').fadeOut();
-   //原生
-   //  $.ajax({    //获取推荐歌单
-   //      url:'http://localhost:3000/personalized',
-   //      type:'get',
-   //      success:function (res) {
-   //          var str='';
-   //          for (let i=0;i<12;i++){
-   //              str+='<div data-id='+res.result[i].id+'>' +
-   //                  '<img src='+res.result[i].picUrl+'>' +
-   //                  '<span>'+res.result[i].name+'</span>' +
-   //                  '</div>'
-   //          }
-   //          $('.find .main .recommend .recommend-song').html(str);
-   //      }
-   //  });
+
     //syx
     $.ajax({    //获取推荐歌单
         url:'SonglistServelet?method=GetSongListData',
@@ -1138,36 +887,7 @@ function getBanner() {
         }
     });
 
-    // $.ajax({    //获取推荐歌单
-    //     url:'http://localhost:3000/personalized',
-    //     type:'get',
-    //     success:function (res) {
-    //         var str='';
-    //         for (let i=0;i<12;i++){
-    //             str+='<div data-id='+res.result[i].id+'>' +
-    //                 '<img src='+res.result[i].picUrl+'>' +
-    //                 '<span>'+res.result[i].name+'</span>' +
-    //                 '</div>'
-    //         }
-    //         $('.find .main .recommend .recommend-song').html(str);
-    //     }
-    // });
-    //原生
-    // $.ajax({        //获取推荐mv
-    //     url:'http://localhost:3000/personalized/mv',
-    //     type:'get',
-    //     success:function (res) {
-    //         var str='';
-    //         for (let i=0;i<res.result.length;i++){
-    //             str+='<div data-id='+res.result[i].id+'>' +
-    //                 '<img src='+res.result[i].picUrl+'>' +
-    //                 '<span>'+res.result[i].name+'</span>' +
-    //                 '<span>'+res.result[i].artistName+'</span>' +
-    //                 '</div>'
-    //         }
-    //         $('.find .main .recommend .recommend-mv').html(str);
-    //     }
-    // });
+
     $.ajax({        //获取推荐mv
         url:'MvlistServelet?method=GetMvListData',
         type:'post',
@@ -1276,32 +996,7 @@ function getDayDate() {
     $('.find .main .recommend .ranking>div:nth-child(2)>div').text(time.getDate());
     $('.recommend-songs .coffee div').text(time.getDate());
 }
-//原生
-// function getrecommend(){
-//     $.ajax({
-//         url:'/recommend/songs',
-//         type:'get',
-//         success:function (res) {
-//             haveLists=res.recommend;
-//             if (res.code!=301){
-//                 var str='';
-//                 for (let i=0;i<res.recommend.length;i++){
-//                     str+='<li>' +
-//                         '<span>'+num(i+1)+'</span>' +
-//                         '<span>'+res.recommend[i].name+'</span>' +
-//                         '<span>'+res.recommend[i].artists[0].name+'</span>' +
-//                         '<span>'+res.recommend[i].album.name+'</span>' +
-//                         '</li>'
-//                 }
-//             }else {
-//                 alert('未登录！');
-//             }
-//             $('.recommend-songs ul').html(str);
-//             $('.loading').fadeOut();
-//             hist('recommend');
-//         }
-//     });
-// }
+
 //syx
 function getrecommend(){
     $.ajax({
@@ -1332,14 +1027,7 @@ function getrecommend(){
 }
 //syx
 function getrecent(){
-    // $.ajax({
-    //     url:'RecommendServelet?method=GetRecommendsong',
-    //     type:'post',
-    //     dataType:'json',
-    //     success:function (res) {
-    //         console.log(res)
-    //         haveLists=res;
-    //         // if (res.code!=301){
+
     haveLists = musicrecentlists
     res = haveLists
             var str='';
@@ -1384,44 +1072,6 @@ function getAuthors() {
     });
 }
 
-//原生
-// // 获取mv排行榜数据
-// function getmvsecond(url) {
-//         return new Promise(function(resolve, reject) {
-//             $.ajax({
-//                 url:url,
-//                 type:'get',
-//                 success:function (res) {
-//                     var str='';
-//                     for (let i=0;i<res.data.length;i++){
-//                         if(!res.data[i].briefDesc){
-//                             str+='<div data-id='+res.data[i].id+'>' +
-//                                 '<span>'+num(i+1)+'</span>' +
-//                                 '<img src='+res.data[i].cover+'>' +
-//                                 '<div class="text">' +
-//                                 '<span>'+res.data[i].name+'</span>' +
-//                                 '<span>'+res.data[i].artistName+'</span>' +
-//                                 '<span></span>' +
-//                                 '</div>' +
-//                                 '</div>';
-//                         }else {
-//                             str+='<div data-id='+res.data[i].id+'>' +
-//                                 '<span>'+num(i+1)+'</span>' +
-//                                 '<img src='+res.data[i].cover+'>' +
-//                                 '<div class="text">' +
-//                                 '<span>'+res.data[i].name+'</span>' +
-//                                 '<span>'+res.data[i].artistName+'</span>' +
-//                                 '<span>'+res.data[i].briefDesc+'</span>' +
-//                                 '</div>' +
-//                                 '</div>';
-//                         }
-//
-//                     }
-//                     resolve(str);
-//                 }
-//             });
-//         });
-// }
 // 获取mv排行榜数据（syx）
 function getmvsecond(url) {
     return new Promise(function(resolve, reject) {

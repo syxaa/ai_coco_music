@@ -7,28 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00a0448e-dab4-4db5-a769-e2adfc3e728c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dao/MvNewlistDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/MvRanklistDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/Mvnewlist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/Mvranklist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/zucc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/WEB-INF/classes/servlet/MvlistServelet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/WEB-INF/classes/servlet/MvlistServelet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/WEB-INF/classes/servlet/SonglikeServelet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/WEB-INF/classes/servlet/SonglikeServelet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/css/other.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/css/other.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/js/Cooldog.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/js/Cooldog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/js/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/js/function.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/coco_music_war_exploded/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coco_music/servlet/MvlistServelet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coco_music/servlet/MvlistServelet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coco_music/servlet/SonglikeServelet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coco_music/servlet/SonglikeServelet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlet/MvlistServelet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/MvlistServelet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlet/SonglikeServelet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/SonglikeServelet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/other.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/other.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/Cooldog.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/Cooldog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/js/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/function.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/main.js" afterDir="false" />
     </list>
@@ -47,7 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -73,7 +53,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="coco_music" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -249,6 +229,7 @@
       <workItem from="1575818411575" duration="2903000" />
       <workItem from="1575867825747" duration="11018000" />
       <workItem from="1575899750180" duration="8863000" />
+      <workItem from="1576071235163" duration="179000" />
     </task>
     <servers />
   </component>
@@ -288,7 +269,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/web/js/main.js</url>
-          <line>775</line>
+          <line>722</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
